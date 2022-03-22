@@ -25,10 +25,6 @@ step-runner-config:
         PROD:
           deployment-config-helm-chart-environment-values-file: values-PROD.yaml
       force-push-tags: true
-  validate-environment-configuration:
-  - implementer: Configlint
-    config:
-      rules: cicd/ploigos-software-factory-operator/ValidateEnv/
   uat:
   - implementer: MavenIntegrationTest
     config:
