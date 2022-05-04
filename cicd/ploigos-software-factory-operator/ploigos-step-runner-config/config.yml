@@ -14,7 +14,7 @@ step-runner-config:
   deploy:
   - implementer: ArgoCD
     config:
-      deployment-config-repo: http://gitea:3000/platform/reference-quarkus-mvn-gitops.git
+      deployment-config-repo: http://gitea:3000/platform/reference-quarkus-mvn-ops.git
       deployment-config-helm-chart-path: charts/reference-quarkus-mvn-deploy
       deployment-config-helm-chart-values-file-image-tag-yq-path: 'image.tag'
       environment-config:
